@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <aside class="sidebar">
+        <div class="logo">
+            <h1>JB</h1>
+        </div>
+        <nav class="nav_links">
+            <ul>
+                <a href=""><li>Github</li></a>
+                <a href=""><li>Linked In</li></a>
+                <a href=""><li>Contact</li></a>
+            </ul>
+        </nav>
+    </aside>
+    <div class="outer_container">
+        <div class="card_container">
+            <header class="card_h1">
+                <h1>dice roller</h1>
+            </header>
+            <form class="main_contents">
+                <label for="myInput">enter number of dice you want to roll</label>
+                <input type="number" id="myInput" value="1" min="1" max="6">
+                <button type="submit" class="submit_btn" id="mySubmit">Submit</button>
+            </form>
+            <div class="result_box" id="result">
+                
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
