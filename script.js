@@ -8,8 +8,11 @@ const images = [];
 function rollDice() {
     for (let i = 0; i < userInput; i++) {
         const randomValue = Math.floor(Math.random() * 6) + 1;
-        console.log(randomValue);
+        values.push(randomValue);
+        images.push(`<img src="svg/${randomValue}.svg">`)
     }
+    result.textContent=`dice : ${values.join(', ')}`;
+    diceImage.innerHTML=images.join('');
 }
 mySubmit.onclick = function (e) {
     e.preventDefault();
