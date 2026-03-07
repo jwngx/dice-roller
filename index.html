@@ -41,16 +41,18 @@
     </aside>
     <div class="outer_container">
         <div class="card_container">
-            <header class="card_h1">
+            <header class="card_h1 capitalize">
                 <h1>dice roller</h1>
             </header>
             <form class="main_contents">
-                <label for="myInput">enter number of dice you want to roll</label>
-                <input type="number" id="myInput" value="1" min="1" max="6">
-                <button type="submit" class="submit_btn" id="mySubmit">Submit</button>
+                <label for="myInput">Enter number of dice you want to roll</label>
+                <div class="input-submit-container">
+                    <input class="input_box" type="number" id="myInput" value="1" min="1" max="3">
+                    <button class="submit_btn" type="submit" class="submit_btn" id="mySubmit">Submit</button>
+                </div>
             </form>
             <div class="result_box" id="result">
-
+                
             </div>
         </div>
     </div>
