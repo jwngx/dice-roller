@@ -29,7 +29,6 @@ a {
     --text: #f0ece4;
     --muted: #8a857a;
     --sidebar-w: 72px;
-    --border-color:#232323;
 }
 
 body {
@@ -127,7 +126,8 @@ body {
 }
 .input_label{
     font-family: var(--dm-mono-font);
-    font-size: 0.85rem;
+    font-size: 0.64rem;
+    letter-spacing: 0.2em;
     color: var(--muted);
 }
 .input_row {
@@ -140,7 +140,7 @@ body {
 .input_box {
     flex: 1;
     height: 44px;
-    padding: 0 10px;
+    padding: 0 14px;
     background-color: var(--panel);
     border: 1px solid #333;
     border-radius: 14px;
@@ -160,7 +160,7 @@ body {
 
 .submit_btn {
     width: 110px;
-    height: 44px;
+    height: 42px;
     border-radius: 10px;
     letter-spacing: 0.08em;
     color: #0f0e0d;
@@ -191,3 +191,4 @@ body {
     width: 500px !important;
     height: 500px !important;
 }
+
